@@ -21,7 +21,6 @@ foldersRouter
       .catch(next);
   })
   .post((req, res, next) => {
-    console.log(req.body);
     const { folder_name } = req.body;
     const newFolder = { folder_name };
 
